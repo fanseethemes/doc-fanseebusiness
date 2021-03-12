@@ -1,0 +1,45 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "fansee theme documention project",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack --progress --watch --mode=development",
+    "build": "webpack --progress --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/fanseethemes/documentation.git"
+  },
+  "keywords": [
+    "fansee-theme",
+    "fst-documentation"
+  ],
+  "author": "fansee themes",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fanseethemes/documentation#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-private-methods": "^7.10.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.0",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.12",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^5.0.2",
+    "imagemin-webpack": "^5.1.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
